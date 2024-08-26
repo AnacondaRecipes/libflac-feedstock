@@ -41,6 +41,7 @@ test:
     - if not exist %LIBRARY_BIN%\\FLAC++.dll exit 1   # [win]
     - if not exist %LIBRARY_LIB%\\FLAC.lib exit 1     # [win]
     - if not exist %LIBRARY_BIN%\\FLAC.dll exit 1     # [win]
+    - flac --version
 
 about:
   home: https://www.xiph.org/
