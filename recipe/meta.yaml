@@ -47,7 +47,7 @@ about:
   summary: Flac audio format
   description: Free Lossless Audio Codec.
   doc_url: https://wiki.xiph.org/
-  dev_url: https://gitlab.xiph.org/xiph/flac
+  dev_url: https://github.com/xiph/flac
 
 extra:
   recipe-maintainers:
