@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://www.xiph.org/
-  license: BSD-3-Clause AND GFDL-1.2-only AND GPL-2.0-only
+  license: BSD-3-Clause AND GPL-2.0-or-later AND GFDL-1.1-or-later
   license_family: OTHER
   license_file: 
     - COPYING.Xiph
