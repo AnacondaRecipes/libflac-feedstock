@@ -45,9 +45,12 @@ test:
 
 about:
   home: https://www.xiph.org/
-  license: BSD-3-Clause
-  license_family: BSD
-  license_file: COPYING.Xiph
+  license: BSD-3-Clause AND GFDL-1.2-only AND GPL-2.0-only
+  license_family: OTHER
+  license_file: 
+    - COPYING.Xiph
+    - COPYING.FDL
+    - COPYING.GPL
   summary: Flac audio format
   description: Free Lossless Audio Codec.
   doc_url: https://wiki.xiph.org/
