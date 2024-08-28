@@ -14,6 +14,9 @@ build:
   number: 0
   run_exports:
     - {{ pin_subpackage('libflac', max_pin='x.x') }}
+  # s390x failing with make error 2.
+  # Skipping since s390x is unnecessary for Snowflake.
+  skip: true  # [s390x]
 
 requirements:
   build:
